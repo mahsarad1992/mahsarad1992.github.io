@@ -1,0 +1,367 @@
+body {
+  background-color: #dee1e9;
+  text-align: center;
+  font-family: Kosugi Maru, sans-serif;
+  color: #4C0027;
+}
+h1 {
+  font-family: Mochiy Pop P One;
+  padding-top: 1rem;
+  padding-bottom: 2.5rem;
+}
+h3 {
+  color: #750550;
+  font-family: Mochiy Pop P One;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+h4 {
+  padding-top: 10%;
+  font-weight: bold;
+}
+hr {
+  background-color: #dee1e9;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #92A9BD;
+  border-width: 8px;
+  height: 0px;
+  width: 10%;
+  margin: auto;
+}
+
+li {
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 1000;
+}
+/* ................................................................................ */
+.text-center {
+  padding-right: 3rem;
+}
+.lead {
+  font-weight: bolder;
+}
+.sections {
+  text-align: center;
+  margin: 0.5rem 0px;
+  width: 1064px;
+  height: 640px;
+}
+
+.container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.bg-photo {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  position: relative;
+  left: 11.5rem;}
+
+.Mahsa-primary{
+  background-image: url("image/p1.png");
+}
+.Mahsa-education {
+  background-image: url("image/p2.png");
+}
+.Mahsa-work {
+  background-image: url("image/p3.png");
+}
+.Mahsa-skill {
+  background-image: url("image/p4.png");
+}
+.Mahsa-further {
+  background-image: url("image/p5.png");
+}
+
+
+.edu1-text {
+  padding-top: 3.3rem;
+  position: relative;
+  left: 5rem;
+}
+
+.edu2-text {
+  padding-top: 0px;
+  position: relative;
+  left: 5rem;
+}
+
+
+.myedu1_imji {
+  position: absolute;
+  top: 5.9rem;
+  left: 3.5rem;
+  width: 12%;
+  float: left;
+  margin: 0px;
+
+}
+.myedu2_imji {
+  position: absolute;
+  top: 17.2rem;
+  left: 8.8rem;
+  width: 12%;
+  float: left;
+  margin: 0px;
+
+}
+
+.carous-work {
+  padding-right: 3rem;
+}
+.mywrk1_imji {
+  position: absolute;
+  top: 1rem;
+  left: 14rem;
+  width: 11%;
+  float: left;
+  margin: 0px;
+
+}
+.mywrk2_imji {
+  position: absolute;
+  top: 28rem;
+  right: 12rem;
+  width: 10%;
+  float: left;
+  margin: 0px;
+
+}
+
+
+
+
+.skill-text, .further-text{
+  padding-top: 0.1rem;
+  padding-bottom: 1rem;
+
+}
+.work-text {
+  padding-left: 2.8rem;
+  padding-top: 0.1rem;
+  padding-bottom: 2rem;
+
+
+}
+.further-activities{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.further1-imj, .further3-imj {
+  width:7rem;
+}
+.further2-imj {
+  padding-top: 1rem;
+  position: relative;
+  right: 0.2rem;
+  width:6rem;
+
+}
+
+.table-further{
+  padding-top: 2rem;
+  padding-right: 9rem;
+  padding-bottom: 7rem;
+}
+.contact-titel{
+  padding-bottom: 2rem;
+}
+
+
+.myimoji{
+  width: 40px;
+}
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 55rem;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding-top: 2rem;
+}
+
+/* Next & previous buttons */
+.prev {
+  cursor: pointer;
+  position: absolute;
+  top: 9rem;
+  left: 8rem;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #4C0027;
+  font-weight: bold;
+  font-size: 3rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 9rem;
+  left: 43.5rem;
+  width: 56px;
+  height: 104px;
+  margin-top: -22px;
+  padding: 16px;
+  color: #4C0027;
+  font-weight: bold;
+  font-size: 3rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover color with a little bit see-through */
+.prev:hover, .next:hover {
+  color: #F94892;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 1.5rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #C1A3A3;
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding: 8px 12px;
+  position: absolute;
+  top: 2.8rem;
+  left:11.3rem;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.icoon{
+  color: #4C0027;
+}
+.icoon:hover {
+  color: #F94892;
+}
+
+.skil_title {
+  font-family: Rum Raisin;
+  margin-bottom: 18%;
+  font-size: 1.49rem;
+  font-weight: bolder;
+  color: #750550;
+}
+.skills_table {
+  position: relative;
+  right: 2.6rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.skil-set {
+  font-family: Laila;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.contact_msg {
+  font-family: Rum Raisin;
+  color: #750550;
+  font-size: 1.5rem;
+}
+
+.sec-title {
+  margin-top: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  right: 1.7rem;
+}
+
+
+.btn {
+  background: #d934a5;
+  background-image: -webkit-linear-gradient(top, #d934a5, #750550);
+  background-image: -moz-linear-gradient(top, #d934a5, #750550);
+  background-image: -ms-linear-gradient(top, #d934a5, #750550);
+  background-image: -o-linear-gradient(top, #d934a5, #750550);
+  background-image: linear-gradient(to bottom, #d934a5, #750550);
+  -webkit-border-radius: 24;
+  -moz-border-radius: 24;
+  border-radius: 24px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 8px 10px 10px 10px;
+  border: solid #752863 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F94892;
+  background-image: -webkit-linear-gradient(top, #F94892, #8a1c67);
+  background-image: -moz-linear-gradient(top, #F94892, #8a1c67);
+  background-image: -ms-linear-gradient(top, #F94892, #8a1c67);
+  background-image: -o-linear-gradient(top, #F94892, #8a1c67);
+  background-image: linear-gradient(to bottom, #F94892, #8a1c67);
+  text-decoration: none;
+}
